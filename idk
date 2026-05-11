@@ -1,0 +1,20 @@
+algoritmo "idekwgo"
+var
+  al:inteiro
+  uo:inteiro
+  res:inteiro
+  sentinela:inteiro
+inicio
+  sentinela <- -99
+  enquanto sentinela <> 0 faca
+    escreva("digite o numero:")
+    leia(al)
+    escreva("outro:")
+    leia(uo)
+    res <- al + uo 
+      escreva(al, "+" ,uo, "=", res)
+      escreva("digite -99 para sair")
+      leia(sentinela)
+      fimenquanto
+      escreval("saiu do laço")
+fimalgoritmo
