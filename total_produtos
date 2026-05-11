@@ -1,0 +1,13 @@
+algoritmo "total_produtos"
+var
+  mensagem: caractere
+inicio
+  escreva("mensagem: ")
+  leia(mensagem)
+  enquanto mensagem <> "s" faca
+    escreva(mensagem)
+    escreva("próxima mensagem [s para sair]: ")
+    leia(mensagem)
+  fimenquanto
+  escreva("saiu do laço")
+fimalgoritmo  
