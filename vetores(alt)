@@ -1,0 +1,14 @@
+algoritmo "vetores"
+var
+  no: vetor[1..5] de inteiro
+  contador: inteiro
+inicio
+para contador de 1 ate 5 faca
+  escreva("no's?",contador)
+  leia(no[contador])
+fimpara
+  para contador de 1 ate 5 faca
+    escreva("")
+    escreval("numeros[",contador,"] =",no[contador])
+  fimpara
+fimalgoritmo
