@@ -1,0 +1,14 @@
+algoritmo "vetores"
+var
+  no: vetor[1..5] de inteiro
+  posicao: inteiro
+inicio
+  no[1] <- 10
+  no[2] <- 20
+  no[3] <- 30
+  no[4] <- 40
+  no[5] <- 50
+  para posicao de 1 ate 5 faca
+    escreval("numeros[",posicao,"] =",no[posicao])
+  fimpara
+fimalgoritmo
