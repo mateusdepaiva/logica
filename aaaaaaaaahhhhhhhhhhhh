@@ -1,0 +1,17 @@
+algoritmo "waidwml"
+var
+  no:vetor[1..5] de inteiro
+  po:inteiro
+  soma:inteiro
+inicio
+  soma <- 0
+  para po de 1 ate 5 faca
+    escreval("coloque valor:",po)
+    leia(no[po])
+    soma <- soma + no[po]
+  fimpara
+  para po de 1 ate 5 faca
+    escreval("numeros[", po "] = ", no[po])
+  fimpara
+  escreval("soma é:", soma)
+fimalgoritmo
