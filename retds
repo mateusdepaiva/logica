@@ -1,7 +1,0 @@
-algoritmo "namic"
-var
-  v:vetor [1..15] de logico
-  p:inteiro
-  ih:logico  
-inicio
-fimalgoritmo

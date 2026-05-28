@@ -1,0 +1,20 @@
+algoritmo "namic"
+var
+va: vetor[1..15] de logico
+po: inteiro
+ev: logico
+inicio
+  ev <- verdadeiro
+  para po de 1 ate 15 faca
+    se (ev = verdadeiro) entao
+      va[po] <- ev
+      ev <- falso
+    senao
+      va[po] <- ev
+      ev <- verdadeiro
+    fimse
+  fimpara
+  para po de 1 ate 15 faca
+    escreval("valores[", po, "] = ", va[po])
+  fimpara
+fimalgoritmo
