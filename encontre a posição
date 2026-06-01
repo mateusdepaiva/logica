@@ -1,0 +1,27 @@
+algoritmo "xfh"
+var
+  no:vetor[1..5] de inteiro
+  po,co,aux:inteiro
+  enc:logico
+inicio
+  enc <- falso
+  no[1] <- 30
+  no[2] <- 60
+  no[3] <- 10
+  no[4] <- 20
+  no[5] <- 1
+  escreval("código?:")
+  leia(co)
+  para po de 1 ate 5 faca
+    se (co = no[po]) entao
+      enc <- verdadeiro
+      aux <- po
+      interrompa
+    fimse
+  fimpara
+  se (enc = verdadeiro) entao
+    escreval("(^v^)-> encontrou posição:", aux)
+  senao
+    escreval("V(-M-)V não encontrado")
+  fimse
+fimalgoritmo
