@@ -53,4 +53,4 @@ def classifi_venda():
             print(f"desempenho de venda {desempenho}")
             resultado.append([venda[0]['nome'], media, desempenho])
 
-            
+classifi_venda()
